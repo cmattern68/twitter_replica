@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ecf0f1;
+    font-family: "Arial", "Verdana", SansSerif, serif;
+}
+
+.container {
+    margin: auto;
+    width: 50%;
+}
+
+.home {
+    padding: 1em;
+    text-align: center;
+}
+
+.form {
+    padding: 1em;
+}
+
+.search-form {
+    text-align: center;
+}
+
+.post-form {
+    text-align: center;
+}
+
+input[type=submit] {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #2980b9;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #bdc3c7;
+}
+
+input[type=text] {
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #bdc3c7;
+}
+
+
+input.submit-tweet {
+    width: 500px;
+}
+
+textarea {
+    width: 500px;
+    resize: none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #bdc3c7;
+}
+
+.tweets {
+    margin: 1em;
+    padding: 1em;
+    border-top: 1px solid #7f8c8d;
+}
+
+.result {
+    font-style: italic;
+}
+
+.post_time {
+    font-style: italic;
+    font-family: "Courier New", "Lucida Console", monospace;
+}
+
+.message {
+    font-family: "Monaco", "Lucida Console", monospace;
+}
+
+.error {
+    margin: 10px auto;
+    width: 30%;
+    padding: 5px;
+    background-color: #e74c3c;
+    border: 1px solid #c0392b;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color: white;
+}
+
+.success {
+    margin: 10px auto;
+    width: 30%;
+    padding: 5px;
+    background-color: #2ecc71;
+    border: 1px solid #27ae60;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color: white;
+}
